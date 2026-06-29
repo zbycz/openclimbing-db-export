@@ -1,0 +1,65 @@
+name: Scheduled Database Backup
+
+on:
+  schedule:
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install SQLite3
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y sqlite3
+
+      - name: Download data
+        run: |
+          # Stáhne data přímo do souboru db.sqlite
+          curl -L -X POST https://openclimbing.org/api/climbing-tiles/export -o db.sqlite
+
+      - name: Export schemas and tables to CSV
+        run: |
+          tables=$(sqlite3 db.sqlite "SELECT name FROM sqlite_master WHERE type='table';")
+          
+          for tbl in $tables; do
+            echo "Exporting schema for table: $tbl"
+            sqlite3 db.sqlite ".schema $tbl" > "./${tbl}.schema"
+          
+            # Kontrola, zda tabulka patří mezi ty, u kterých nechceme exportovat data
+            if [[ "$tbl" == "climbing_features" || "$tbl" == "climbing_tiles_cache" || "$tbl" == "climbing_tiles_stats" || "$tbl" == "sqlite_sequence" ]]; then
+              echo "Skipping data export for table: $tbl"
+            elif [[ "$tbl" == "osm_user_display_names" ]]; then
+              echo "Exporting data to CSV for table: $tbl (only users with at least one tick)"
+              sqlite3 db.sqlite -header -csv "SELECT * FROM osm_user_display_names WHERE osmUserId IN (SELECT DISTINCT \"osmUserId\" FROM climbing_ticks);" > "./${tbl}.csv"
+            else
+              echo "Exporting data to CSV for table: $tbl"
+              sqlite3 db.sqlite -header -csv "SELECT * FROM $tbl;" > "./${tbl}.csv"
+            fi
+          done
+          
+          rm -f db.sqlite
+          ls -lah
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          
+          GIT_DIFF=$(git diff --cached --shortstat)
+          CURRENT_DATE=$(date +"%Y-%m-%d %H:%M")
+          
+          if [ -n "$GIT_DIFF" ]; then
+            COMMIT_MSG="backup ${CURRENT_DATE} –${GIT_DIFF}"
+          else
+            COMMIT_MSG="backup ${CURRENT_DATE}"
+          fi
+          
+          git commit --allow-empty -m "$COMMIT_MSG"
+          git push
