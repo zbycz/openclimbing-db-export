@@ -1,0 +1,7 @@
+CREATE TABLE osm_user_display_names
+    (
+      "osmUserId"   INTEGER PRIMARY KEY NOT NULL,
+      "displayName" TEXT NOT NULL
+    );
+CREATE INDEX idx_osm_user_display_name_lower
+      ON osm_user_display_names (lower("displayName"));

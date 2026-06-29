@@ -1,0 +1,18 @@
+CREATE TABLE climbing_features
+(
+  id              INTEGER PRIMARY KEY AUTOINCREMENT,
+  type            TEXT    NOT NULL,
+  lon             REAL    NOT NULL,
+  lat             REAL    NOT NULL,
+  "osmType"       TEXT    NOT NULL,
+  "osmId"         INTEGER NOT NULL,
+  name            TEXT,
+  "routeCount"    INTEGER,
+  "nameRaw"       TEXT,
+  "hasImages"     INTEGER, -- SQLite nemá Boolean, používá se 0/1
+  line            TEXT,    -- JSON se v SQLite ukládá jako TEXT
+  "gradeTxt"      TEXT,
+  "gradeId"       INTEGER,
+  "histogramCode" TEXT,
+  "parentId"      INTEGER
+, "materials" TEXT, "climbingTypes" TEXT, "inclinations" TEXT, "familyFriendly" INTEGER, "tags" TEXT, "members" TEXT);

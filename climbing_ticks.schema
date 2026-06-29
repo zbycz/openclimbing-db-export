@@ -1,0 +1,12 @@
+CREATE TABLE climbing_ticks
+(
+  id          INTEGER PRIMARY KEY AUTOINCREMENT,
+  "osmUserId" INTEGER NOT NULL,
+  "osmType"   TEXT,
+  "osmId"     INTEGER,
+  timestamp   TEXT    NOT NULL, -- SQLite nemá specializovaný Timestamp, používá ISO8601 string
+  style       TEXT,
+  "myGrade"   TEXT,
+  note        TEXT,
+  pairing     TEXT              -- JSON uložen jako TEXT
+);

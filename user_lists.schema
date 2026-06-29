@@ -1,0 +1,11 @@
+CREATE TABLE user_lists
+    (
+      id          INTEGER PRIMARY KEY AUTOINCREMENT,
+      "osmUserId" INTEGER NOT NULL,
+      name        TEXT    NOT NULL,
+      emoji       TEXT    NOT NULL,
+      color       TEXT    NOT NULL DEFAULT '#FFFFFF',
+      "createdAt" TEXT    NOT NULL,
+      "sortOrder" INTEGER NOT NULL DEFAULT 0
+    );
+CREATE INDEX idx_user_lists_user ON user_lists ("osmUserId");
