@@ -24,3 +24,5 @@ id,listId,shortId,label,poiType,lon,lat,addedAt
 30,9,n11809456828,"Pičikout","Lezecká cesta (začátek)",14.2354178,49.7024953,2026-07-08T13:23:38.724Z
 32,1,n13834825320,"Diviš","Climbing Route Start",14.3947279,49.889287,2026-07-08T15:44:14.316Z
 33,11,r17330079,"Paličatá","Lezecký sektor/skála",16.0932728648186,49.6860792094344,2026-07-10T20:45:13.142Z
+34,12,r20743667,"Les Roches qui dansent","climbing group",4.85973358154297,45.1602532722397,2026-07-11T09:45:04.279Z
+35,12,n13986147652,"Le Toit de l'église","Climbing Route Start",4.8595,45.160667,2026-07-11T09:47:22.666Z
