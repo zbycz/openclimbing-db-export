@@ -15,5 +15,5 @@ CREATE TABLE climbing_features
   "gradeId"       INTEGER,
   "histogramCode" TEXT,
   "parentId"      INTEGER
-, "materials" TEXT, "climbingTypes" TEXT, "inclinations" TEXT, "familyFriendly" INTEGER, "tags" TEXT, "members" TEXT);
+, "materials" TEXT, "climbingTypes" TEXT, "inclinations" TEXT, "familyFriendly" INTEGER, "tags" TEXT, "members" TEXT, "countryCode" TEXT);
 CREATE INDEX idx_climbing_features_osm ON climbing_features ("osmType", "osmId");
