@@ -26,3 +26,7 @@ id,listId,shortId,label,poiType,lon,lat,addedAt
 34,12,r20743667,"Les Roches qui dansent","climbing group",4.85973358154297,45.1602532722397,2026-07-11T09:45:04.279Z
 35,12,n13986147652,"Le Toit de l'église","Climbing Route Start",4.8595,45.160667,2026-07-11T09:47:22.666Z
 37,4,r17262674,"Pravá plotna","Lezecký sektor/skála",14.39244645,50.0432321,2026-07-14T12:07:23.511Z
+38,13,r19269215,"Michały","Lezecký sektor/skála",15.86659685,50.86995055,2026-07-16T19:23:54.043Z
+39,13,r19250765,Sukiennice,"Lezecký sektor/skála",15.86621105,50.8698663,2026-07-16T19:24:07.263Z
+40,13,r19289308,"Krzywa Turnia","Lezecký sektor/skála",15.86560015,50.86987895,2026-07-16T19:58:22.873Z
+41,13,r19481985,"Sokolik Duży","Lezecký sektor/skála",15.8694148,50.8695975,2026-07-16T20:00:30.836Z
