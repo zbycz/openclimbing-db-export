@@ -611,3 +611,8 @@ id,osmUserId,osmType,osmId,timestamp,style,myGrade,note,pairing
 2883,9631658,node,13834512692,2026-08-07T14:27:51.892Z,OS,,,"{""partners"":""blacks""}"
 2884,9631658,node,13834512693,2026-08-07T14:27:51.892Z,OS,,,"{""partners"":""blacks""}"
 2885,9631658,node,13834690402,2026-08-07T14:27:51.892Z,TR,,,"{""partners"":""blacks""}"
+2886,598980,node,11939728779,2026-08-05T05:30:20.543Z,PJ,,,
+2887,9631658,node,11849813140,2026-08-08T14:27:26.920Z,TR,,,"{""partners"":""@KBártík  blacks""}"
+2888,9631658,node,11849813137,2026-08-08T14:27:26.920Z,TR,,,"{""partners"":""@KBártík  blacks""}"
+2889,9631658,node,11849786907,2026-08-08T14:27:26.920Z,PP,,,"{""partners"":""@KBártík  blacks""}"
+2890,9631658,node,11849813141,2026-08-08T14:27:26.920Z,TR,,,"{""partners"":""@KBártík  blacks""}"
