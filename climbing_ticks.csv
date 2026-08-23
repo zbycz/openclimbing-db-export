@@ -703,3 +703,5 @@ id,osmUserId,osmType,osmId,timestamp,style,myGrade,note,pairing
 2977,24431058,node,14107563669,2013-06-16T15:09:35.687Z,TR,VIIa,,"{""partners"":""Stefan F.""}"
 2978,24431058,node,14107633280,2013-06-17T15:12:30.263Z,FL,III,,"{""partners"":""Olf P.""}"
 2979,162287,node,11645691923,2026-08-20T18:11:55.330Z,OS,,,
+2980,24431058,node,14112839562,2013-06-22T16:57:33.794Z,TR,V,,"{""partners"":""Stefan F.""}"
+2981,24431058,node,14112463492,2013-06-22T17:00:57.337Z,TR,VIIa,,"{""partners"":""Stefan F.""}"
