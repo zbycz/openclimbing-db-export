@@ -72,3 +72,6 @@ id,listId,shortId,label,poiType,lon,lat,addedAt
 88,22,r17497536,"Suché skály","Lezecká oblast",15.20684135,50.6381252,2026-08-17T07:57:12.132Z
 89,23,r17190604,"Zvírotice město","Lezecká oblast",14.30794755,49.6944102,2026-08-21T18:49:51.424Z
 90,7,w630208221,"Klettersteig Alpiner Grat","Prvek cesty",14.7515888,50.8343372,2026-08-23T12:01:18.103Z
+91,24,r19932841,"Klettergarten Weißbach","Climbing Crag",12.75273375,47.52383205,2026-08-24T09:16:08.048Z
+92,26,n4579239251,"Rocher de Jupille","Sport Pitch",1.8436631,46.2775374,2026-08-24T16:32:49.613Z
+93,27,n4579239251,"Rocher de Jupille","Sport Pitch",1.8436631,46.2775374,2026-08-24T16:32:51.376Z
