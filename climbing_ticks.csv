@@ -1029,3 +1029,6 @@ id,osmUserId,osmType,osmId,timestamp,style,myGrade,note,pairing
 3314,24431058,node,14179988457,2015-06-06T08:46:26.438Z,FL,III,,"{""partners"":""Susann U.""}"
 3315,24431058,node,14179988456,2015-06-06T08:46:51.744Z,FL,II,,"{""partners"":""Susann U.""}"
 3316,24431058,node,14180149222,2015-06-16T08:47:54.825Z,TR,VI,,"{""partners"":""Maik K.""}"
+3317,24431058,node,14182391143,2015-06-28T07:39:07.381Z,TR,VIIa,,"{""partners"":""Maik K.""}"
+3318,24431058,node,14182389362,2015-06-28T07:53:38.684Z,OS,V,,"{""partners"":""Maik K.""}"
+3319,24431058,node,14182389277,2015-06-28T07:54:22.359Z,FL,V,,"{""partners"":""Maik K.""}"
