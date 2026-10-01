@@ -1247,3 +1247,9 @@ id,osmUserId,osmType,osmId,timestamp,style,myGrade,note,pairing
 3535,24431058,node,14233858367,2016-07-09T08:03:04.133Z,FL,V,,"{""partners"":""Christian H.""}"
 3536,24431058,node,14233851306,2016-07-09T08:03:04.133Z,TR,III,,"{""partners"":""Christian H.""}"
 3537,24431058,node,14233862593,2016-07-09T08:03:04.133Z,TR,VIIa,,"{""partners"":""Christian H.""}"
+3538,24431058,node,14238107511,2016-07-10T07:33:15.913Z,FL,I,,"{""partners"":""Peggy A., Martin P., Susann P.""}"
+3539,24431058,node,14237814239,2016-07-10T07:33:15.913Z,FL,II,,"{""partners"":""Peggy A., Martin P.""}"
+3540,24431058,node,14238118441,2016-07-16T07:33:15.913Z,TR,VI,,"{""partners"":""Christian H.""}"
+3541,24431058,node,14238123494,2016-07-16T07:33:15.913Z,FL,VIIa,,"{""partners"":""Christian H.""}"
+3542,24431058,node,14238127647,2016-07-20T07:33:15.913Z,TR,VIIa,,"{""partners"":""Christian H.""}"
+3543,24431058,node,14238119000,2016-07-20T07:33:15.913Z,FS,IV,,
