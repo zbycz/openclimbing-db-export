@@ -3,7 +3,6 @@ id,osmUserId,name,emoji,color,createdAt,sortOrder
 2,9631658,"Want to visit","🚩",#A3E635,2026-06-07T21:04:47.049Z,0
 3,9631658,"Oblíbené","⭐",#F87171,2026-06-07T22:15:19.439Z,0
 4,162287,favourite,"⭐",#FBBF24,2026-06-11T08:43:52.305Z,0
-6,9631658,"Chci vylézt","🧗",#FB923C,2026-06-16T16:31:55.382Z,0
 7,9631658,"Navštíveno","✅",#FFFFFF,2026-07-06T09:18:29.247Z,0
 8,24284955,"Oblíbené","⭐",#FFFFFF,2026-07-06T18:13:17.839Z,0
 9,24008154,"Chci vylézt","🧗",#FFFFFF,2026-07-08T13:22:57.106Z,0
@@ -41,3 +40,4 @@ id,osmUserId,name,emoji,color,createdAt,sortOrder
 41,24630427,"Oblíbené","⭐",#FFFFFF,2026-10-06T15:43:39.393Z,0
 42,23267009,Done,"✅",#A3E635,2026-10-07T06:52:35.652Z,0
 43,23267009,"Möchte ich besuchen","🚩",#FFFFFF,2026-10-07T07:39:13.961Z,0
+44,9631658,"Chci nafotit","📸",#E879F9,2026-10-11T19:28:32.039Z,0
