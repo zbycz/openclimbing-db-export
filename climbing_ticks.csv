@@ -1294,7 +1294,6 @@ id,osmUserId,osmType,osmId,timestamp,style,myGrade,note,pairing
 3584,24431058,node,14254260956,2016-08-11T06:49:37.295Z,TR,V,,"{""partners"":""Christian H.""}"
 3585,24431058,node,14254177266,2016-08-11T06:49:37.295Z,AF,VIIa,,"{""partners"":""Christian H.""}"
 3586,24431058,node,14254262753,2016-08-11T06:49:37.295Z,TR,VIIc,,"{""partners"":""Christian H.""}"
-3587,24630427,node,11783470326,2026-10-06T15:44:19.948Z,OS,,,
 3589,24431058,node,14257344078,2016-08-14T07:14:58.597Z,AF,VI,,"{""partners"":""Konrad K.""}"
 3590,24431058,node,14257368725,2016-08-14T07:14:58.597Z,OS,III,,"{""partners"":""Konrad K.""}"
 3591,24431058,node,14257342600,2016-08-14T07:14:58.597Z,OS,II,,"{""partners"":""Konrad K.""}"
@@ -1327,3 +1326,6 @@ id,osmUserId,osmType,osmId,timestamp,style,myGrade,note,pairing
 3618,118690,node,14269378744,2025-06-18T20:21:47.183Z,RP,,,
 3619,118690,node,14269378743,2025-06-18T20:21:47.183Z,OS,,,
 3620,339917,node,12410199405,2024-12-30T12:42:46.236Z,OS,,,
+3621,24574238,node,13834684437,2026-10-13T09:25:51.024Z,OS,,,"{""partners"":""S Benem, trénink slanění""}"
+3623,24574238,node,13834684454,2026-10-13T09:25:51.024Z,TR,,,"{""partners"":""S Benem""}"
+3624,24630427,node,11783470326,2026-10-13T10:38:55.334Z,RX,,,
