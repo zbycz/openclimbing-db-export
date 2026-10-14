@@ -1329,3 +1329,6 @@ id,osmUserId,osmType,osmId,timestamp,style,myGrade,note,pairing
 3621,24574238,node,13834684437,2026-10-13T09:25:51.024Z,OS,,,"{""partners"":""S Benem, trénink slanění""}"
 3623,24574238,node,13834684454,2026-10-13T09:25:51.024Z,TR,,,"{""partners"":""S Benem""}"
 3624,24630427,node,11783470326,2026-10-13T10:38:55.334Z,RX,,,
+3625,24574238,node,13834684451,2026-10-13T09:25:51.024Z,AF,,,"{""partners"":""S Benem""}"
+3626,24574238,node,13834685139,2026-10-13T09:25:51.024Z,AF,,,"{""partners"":""S Benem""}"
+3627,24574238,node,13834684440,2026-10-13T09:25:51.024Z,AF,,,"{""partners"":""S Benem""}"
