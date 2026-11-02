@@ -1402,3 +1402,6 @@ id,osmUserId,osmType,osmId,timestamp,style,myGrade,note,pairing
 3696,24431058,node,14330756730,2017-05-26T08:36:19.231Z,TR,2,,"{""partners"":""Christian H.""}"
 3697,24431058,node,14330792002,2017-06-03T08:36:19.231Z,FL,II,,"{""partners"":""Jonas G., Olf P., Susann P.""}"
 3698,24431058,node,14330792003,2017-06-03T08:36:19.231Z,FL,III,,"{""partners"":""Jonas G., Olf P., Susann P.""}"
+3699,9631658,node,11816530310,2026-10-31T18:33:44.394Z,OS,,,"{""partners"":""Mája Š., @KBártík ""}"
+3700,9631658,node,11816530324,2026-10-31T18:33:44.394Z,OS,,,"{""partners"":""Mája Š., @KBártík ""}"
+3701,23609787,node,13929831662,2026-11-01T08:13:36.165Z,RP,6B+,,
