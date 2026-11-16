@@ -1442,3 +1442,11 @@ id,osmUserId,osmType,osmId,timestamp,style,myGrade,note,pairing
 3794,9631658,node,11806621079,2026-11-13T15:12:35.778Z,PP,,,"{""partners"":""@blacks_02 ""}"
 3795,9631658,node,11806621077,2026-11-13T15:12:35.778Z,OS,,,"{""partners"":""@blacks_02 ""}"
 3796,9631658,node,11806621076,2026-11-13T15:12:35.778Z,OS,,,"{""partners"":""@blacks_02 ""}"
+3797,24431058,node,14382883627,2017-07-16T08:09:16.378Z,FL,VIIb,,"{""partners"":""Tommy S.""}"
+3798,24431058,node,14382823265,2017-07-16T08:09:16.378Z,TR,VIIb,,"{""partners"":""Tommy S., Anna S., Christian G.""}"
+3799,24431058,node,14382849460,2017-07-16T08:09:16.378Z,FS,IV,,
+3800,24431058,node,14382910043,2017-07-16T08:09:16.378Z,TR,VIIc,,"{""partners"":""Christian G., Tommy S., Anna S.""}"
+3801,24431058,node,14382936716,2017-07-30T08:09:16.378Z,AF,VIIb,,"{""partners"":""Maik K.""}"
+3802,24431058,node,14382962201,2017-07-30T08:09:16.378Z,TR,VI,,"{""partners"":""Maik K.""}"
+3803,24431058,node,14382929197,2017-07-30T08:09:16.378Z,AF,"VIIb (VIIc)",,"{""partners"":""Maik K.""}"
+3804,24431058,node,14382980401,2017-07-30T08:09:16.378Z,AF,VIIa,,"{""partners"":""Maik K.""}"
