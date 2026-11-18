@@ -1475,3 +1475,9 @@ id,osmUserId,osmType,osmId,timestamp,style,myGrade,note,pairing
 3828,24431058,node,14386303332,2017-09-28T12:25:10.712Z,FL,VIIa,,"{""partners"":""Maik K.""}"
 3829,24431058,node,14386321595,2017-09-28T12:25:10.712Z,FS,II,,
 3830,24431058,node,14386353251,2017-09-28T12:25:10.712Z,FL,2/IV,,"{""partners"":""Maik K.""}"
+3831,24431058,node,14386377322,2017-09-30T12:25:10.712Z,AF,"VIIa (VIIc)",,"{""partners"":""Anna S., Christian G.""}"
+3832,24431058,node,14386376524,2017-09-30T12:25:10.712Z,TR,VIIa,,"{""partners"":""Christian G., Anna S.""}"
+3833,24431058,node,14386511530,2017-09-30T12:25:10.712Z,TR,VI,,"{""partners"":""Christian G., Anna S.""}"
+3834,24431058,node,14386511531,2017-09-30T12:25:10.712Z,TR,VIIa,,
+3835,24431058,node,14386555923,2017-10-01T12:25:10.712Z,TR,VIIb,,"{""partners"":""Christian G., Anna S.""}"
+3836,24431058,node,14386562815,2017-10-02T12:25:10.712Z,TR,VIIb,,"{""partners"":""Christian G., Anna S.""}"
