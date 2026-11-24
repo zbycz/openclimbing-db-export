@@ -49,3 +49,5 @@ id,osmUserId,name,emoji,color,createdAt,sortOrder
 51,8250426,Argentina,"",#38BDF8,2026-11-18T00:45:03.444Z,0
 52,24782895,"Quiero visitar","🚩",#FFFFFF,2026-11-19T10:45:20.507Z,0
 53,24782895,"Quiero escalar","🧗",#F87171,2026-11-19T10:45:24.451Z,0
+54,24798055,Favorites,"⭐",#FFFFFF,2026-11-23T23:32:49.698Z,0
+55,24798055,"Want to visit","🚩",#F87171,2026-11-23T23:32:57.793Z,0
